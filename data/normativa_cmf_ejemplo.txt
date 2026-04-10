@@ -1,0 +1,121 @@
+COMISIÓN PARA EL MERCADO FINANCIERO (CMF)
+RECOPILACIÓN ACTUALIZADA DE NORMAS - CAPÍTULO 1-14
+NORMATIVA PARA BANCOS E INSTITUCIONES FINANCIERAS
+
+TÍTULO I: DISPOSICIONES GENERALES SOBRE OPERACIONES BANCARIAS
+
+Artículo 1. Ámbito de aplicación.
+Las presentes normas son aplicables a todos los bancos e instituciones financieras establecidas en Chile, incluyendo sus sucursales y filiales. Las entidades deberán dar cumplimiento a estas disposiciones en todas sus operaciones, tanto nacionales como internacionales.
+
+Artículo 2. Definiciones.
+Para efectos de la presente normativa, se entenderá por:
+a) Banco: toda sociedad anónima especial autorizada por la CMF para captar depósitos del público y otorgar créditos.
+b) Cliente: toda persona natural o jurídica que mantiene una relación contractual con un banco.
+c) Operación bancaria: toda transacción financiera realizada por un banco en el ejercicio de sus funciones.
+d) Capital regulatorio: el capital mínimo exigido por la normativa para operar como institución financiera.
+
+Artículo 3. Requisitos de capital mínimo.
+Los bancos deberán mantener en todo momento un patrimonio efectivo no inferior al 8% de sus activos ponderados por riesgo. Este ratio se calculará conforme a las metodologías establecidas en el Capítulo 12-1 de esta Recopilación.
+
+Artículo 4. Gobierno corporativo.
+Las instituciones financieras deberán contar con un directorio compuesto por un mínimo de cinco miembros, de los cuales al menos uno deberá ser independiente. El directorio será responsable de aprobar las políticas de gestión de riesgos, cumplimiento normativo y control interno.
+
+TÍTULO II: OPERACIONES DE CRÉDITO
+
+Artículo 5. Evaluación de riesgo crediticio.
+Previo al otorgamiento de cualquier crédito, el banco deberá realizar una evaluación integral del riesgo crediticio del solicitante, considerando:
+a) Capacidad de pago actual y proyectada.
+b) Historial crediticio en el sistema financiero.
+c) Garantías ofrecidas y su valoración.
+d) Sector económico y condiciones de mercado.
+
+Artículo 6. Límites de concentración crediticia.
+Ningún banco podrá otorgar créditos a un mismo deudor o grupo empresarial que excedan el 10% de su patrimonio efectivo. Para créditos con garantías reales, este límite se extiende al 15%.
+
+Artículo 7. Provisiones por riesgo de crédito.
+Los bancos deberán constituir provisiones individuales y grupales para cubrir las pérdidas esperadas de su cartera de créditos, conforme a los modelos de clasificación establecidos por la CMF:
+- Categoría A (Normal): provisión del 0.5%
+- Categoría B (Subestándar): provisión del 5%
+- Categoría C (Incumplimiento): provisión del 25%
+- Categoría D (Pérdida): provisión del 50% a 100%
+
+TÍTULO III: PROTECCIÓN AL CLIENTE FINANCIERO
+
+Artículo 8. Transparencia en la información.
+Los bancos están obligados a informar de manera clara, oportuna y veraz a sus clientes sobre:
+a) Las condiciones de los productos y servicios financieros ofrecidos.
+b) Las tasas de interés, comisiones y cargos asociados.
+c) Los riesgos inherentes a las operaciones financieras.
+d) Los derechos y obligaciones del cliente.
+
+Artículo 9. Tratamiento de reclamos.
+Toda institución financiera deberá contar con un procedimiento formal de atención de reclamos que garantice:
+a) Recepción y registro de todos los reclamos presentados.
+b) Plazo máximo de respuesta de 15 días hábiles.
+c) Respuesta fundada por escrito al reclamante.
+d) Registro estadístico de reclamos para análisis y mejora continua.
+
+Artículo 10. Protección de datos personales.
+Los bancos deberán implementar medidas de seguridad técnicas y organizativas para proteger los datos personales de sus clientes, incluyendo:
+a) Sistemas de cifrado para almacenamiento y transmisión de datos.
+b) Control de acceso basado en roles y principio de mínimo privilegio.
+c) Registro de auditoría de accesos a información sensible.
+d) Plan de respuesta ante incidentes de seguridad de datos.
+
+TÍTULO IV: PREVENCIÓN DE LAVADO DE ACTIVOS Y FINANCIAMIENTO DEL TERRORISMO
+
+Artículo 11. Debida diligencia del cliente (KYC).
+Los bancos deberán implementar procedimientos de conocimiento del cliente que incluyan:
+a) Identificación y verificación de la identidad del cliente.
+b) Identificación del beneficiario final en personas jurídicas.
+c) Determinación del propósito y naturaleza de la relación comercial.
+d) Monitoreo continuo de las transacciones del cliente.
+
+Artículo 12. Reporte de operaciones sospechosas.
+Las instituciones financieras están obligadas a reportar a la Unidad de Análisis Financiero (UAF) toda operación que presente indicios de lavado de activos o financiamiento del terrorismo, dentro de un plazo máximo de 24 horas desde su detección.
+
+Artículo 13. Personas expuestas políticamente (PEP).
+Los bancos deberán aplicar medidas de debida diligencia reforzada para clientes clasificados como PEP, incluyendo:
+a) Aprobación de la alta dirección para establecer la relación comercial.
+b) Determinación del origen de los fondos.
+c) Monitoreo reforzado de las transacciones.
+
+TÍTULO V: NORMATIVA INTERNA DE BANCOESTADO
+
+Sección 1. Política de cumplimiento normativo.
+BancoEstado, como institución financiera del Estado de Chile, mantiene los más altos estándares de cumplimiento normativo. Todo funcionario deberá:
+a) Conocer y aplicar las normativas vigentes según su área de competencia.
+b) Reportar cualquier irregularidad o incumplimiento detectado.
+c) Participar en las capacitaciones obligatorias de cumplimiento.
+d) Consultar al área de cumplimiento ante cualquier duda normativa.
+
+Sección 2. Procedimiento de apertura de cuentas.
+Para la apertura de cuentas corrientes y de ahorro, el ejecutivo de sucursal deberá:
+a) Verificar la identidad del cliente mediante documento oficial vigente (cédula de identidad o pasaporte).
+b) Completar el formulario de conocimiento del cliente (KYC).
+c) Verificar el domicilio del cliente mediante documento de respaldo.
+d) Consultar las listas de sanciones internacionales (OFAC, ONU).
+e) Obtener la firma del contrato de apertura de cuenta.
+f) En caso de personas jurídicas, solicitar adicionalmente: RUT de la empresa, escritura de constitución, poder de representación vigente.
+
+Sección 3. Política de crédito de consumo.
+Los créditos de consumo otorgados por BancoEstado se regirán por los siguientes criterios:
+a) Monto máximo: hasta 50 veces el ingreso mensual líquido del solicitante.
+b) Plazo máximo: 72 meses.
+c) Tasa de interés: según tabla vigente publicada por la gerencia de productos.
+d) Requisitos: antigüedad laboral mínima de 6 meses, sin morosidad en el sistema financiero.
+e) Documentación: liquidaciones de sueldo de los últimos 3 meses, certificado de antigüedad laboral.
+
+Sección 4. Política de atención al cliente en sucursal.
+Los ejecutivos de sucursal deberán:
+a) Atender a los clientes en un plazo máximo de 15 minutos desde su llegada.
+b) Informar proactivamente sobre productos y servicios que se ajusten al perfil del cliente.
+c) Registrar toda interacción en el sistema CRM del banco.
+d) Escalar al supervisor cualquier situación que no pueda resolver directamente.
+e) Mantener la confidencialidad de la información del cliente en todo momento.
+
+Sección 5. Protocolos de seguridad en sucursal.
+a) Verificar la identidad de todo cliente antes de realizar operaciones sobre $500.000 CLP.
+b) Para transferencias internacionales superiores a USD 10.000, requerir autorización del jefe de operaciones.
+c) Reportar inmediatamente al área de seguridad cualquier intento de fraude detectado.
+d) No revelar información de cuentas a terceros sin autorización escrita del titular.
