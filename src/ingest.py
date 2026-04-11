@@ -4,7 +4,7 @@ Módulo de ingesta de documentos para el pipeline RAG de BancoEstado.
 Responsabilidades:
 - Cargar documentos PDF, DOCX y TXT desde el directorio de datos.
 - Dividir los documentos en chunks con RecursiveCharacterTextSplitter.
-- Generar embeddings con OpenAI y almacenarlos en FAISS.
+- Generar embeddings con GitHub Models API y almacenarlos en FAISS.
 """
 
 import os
@@ -16,7 +16,8 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
 from src.config import (
-    OPENAI_API_KEY,
+    GITHUB_TOKEN,
+    GITHUB_EMBEDDINGS_URL,
     EMBEDDING_MODEL,
     FAISS_INDEX_DIR,
     CHUNK_SIZE,
@@ -79,7 +80,8 @@ def create_vector_store(chunks: list) -> FAISS:
     """Genera embeddings y almacena en FAISS con persistencia local."""
     embeddings = OpenAIEmbeddings(
         model=EMBEDDING_MODEL,
-        openai_api_key=OPENAI_API_KEY,
+        openai_api_key=GITHUB_TOKEN,
+        openai_api_base=GITHUB_EMBEDDINGS_URL,
     )
     vector_store = FAISS.from_documents(
         documents=chunks,

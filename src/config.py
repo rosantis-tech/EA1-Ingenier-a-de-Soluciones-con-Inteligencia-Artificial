@@ -5,9 +5,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# --- GitHub Models API (compatible con OpenAI SDK) ---
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_BASE_URL = os.getenv("GITHUB_BASE_URL", "https://models.inference.ai.azure.com")
+GITHUB_EMBEDDINGS_URL = os.getenv("GITHUB_EMBEDDINGS_URL", "https://models.github.ai/inference")
+
+# Mapear credenciales de GitHub Models para compatibilidad con LangChain
+os.environ["OPENAI_API_KEY"] = GITHUB_TOKEN or ""
+os.environ["OPENAI_API_BASE"] = GITHUB_BASE_URL
+
 # --- LLM ---
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o")
+LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4.1")
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.2"))
 
 # --- Embeddings ---

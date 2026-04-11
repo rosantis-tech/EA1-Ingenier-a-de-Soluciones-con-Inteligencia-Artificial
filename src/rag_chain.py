@@ -11,11 +11,13 @@ import os
 
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain.chains import RetrievalQA
-from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
+from langchain_classic.chains import RetrievalQA
+from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 
 from src.config import (
-    OPENAI_API_KEY,
+    GITHUB_TOKEN,
+    GITHUB_BASE_URL,
+    GITHUB_EMBEDDINGS_URL,
     LLM_MODEL,
     LLM_TEMPERATURE,
     EMBEDDING_MODEL,
@@ -35,7 +37,8 @@ def get_vector_store() -> FAISS:
         )
     embeddings = OpenAIEmbeddings(
         model=EMBEDDING_MODEL,
-        openai_api_key=OPENAI_API_KEY,
+        openai_api_key=GITHUB_TOKEN,
+        openai_api_base=GITHUB_EMBEDDINGS_URL,
     )
     return FAISS.load_local(
         FAISS_INDEX_DIR,
@@ -54,7 +57,8 @@ def build_rag_chain(vector_store: FAISS) -> RetrievalQA:
     llm = ChatOpenAI(
         model=LLM_MODEL,
         temperature=LLM_TEMPERATURE,
-        openai_api_key=OPENAI_API_KEY,
+        openai_api_key=GITHUB_TOKEN,
+        openai_api_base=GITHUB_BASE_URL,
     )
 
     prompt = ChatPromptTemplate.from_messages([
