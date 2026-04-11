@@ -14,7 +14,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_classic.chains import RetrievalQA
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 
-from src.config import (
+from config import (
     GITHUB_TOKEN,
     GITHUB_BASE_URL,
     GITHUB_EMBEDDINGS_URL,

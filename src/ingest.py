@@ -15,7 +15,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
-from src.config import (
+from config import (
     GITHUB_TOKEN,
     GITHUB_EMBEDDINGS_URL,
     EMBEDDING_MODEL,

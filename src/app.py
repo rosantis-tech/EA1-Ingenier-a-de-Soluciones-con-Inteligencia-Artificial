@@ -6,7 +6,7 @@ a través de una interfaz conversacional web.
 """
 
 import streamlit as st
-from src.rag_chain import query, get_vector_store, build_rag_chain
+from rag_chain import query, get_vector_store, build_rag_chain
 
 st.set_page_config(
     page_title="Asistente Normativo - BancoEstado",
